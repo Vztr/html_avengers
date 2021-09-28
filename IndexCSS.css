@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: burlywood;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(15, 13, 39);
+}
+
+nav a:first-child:before {
+    content:"🦸‍♂️"
+}
+
+nav a:last-child:before {
+    content:"🦸🏽"
+}
+
+nav a:nth-child(2):before {
+    content:"🦸🏼‍♀️"
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
